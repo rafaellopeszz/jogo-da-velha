@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.square {
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: beige;
+  border: 1px solid gray;
+  display: inline-block;
+}
+.o {
+  position: relative;
+}
+.o:after {
+  position: absolute;
+  content: '\1F530';
+  font-size: 3.125rem;
+  line-height: 6.25rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.x {
+  position: relative;
+}
+.x:after {
+  position: absolute;
+  content: '\2694';
+  font-size: 3.125rem;
+  line-height: 6.25rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
